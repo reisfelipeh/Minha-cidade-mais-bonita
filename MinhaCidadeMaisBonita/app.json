@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Minha Cidade mais Bonita",
+    "slug": "minha-cidade-mais-bonita",
+    "version": "1.0.0",
+    "scheme": "minhacidadebonita",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": { "package": "br.com.educacional.minhacidademaisbonita" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.educacional.minhacidademaisbonita"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permita que o aplicativo fotografe a ocorrência urbana."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Permita que o aplicativo registre a localização da ocorrência."
+        }
+      ]
+    ]
+  }
+}
